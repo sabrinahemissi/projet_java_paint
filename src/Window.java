@@ -52,7 +52,7 @@ public class Window extends JFrame implements ActionListener
 
         // Message de bienvenue pour l'utilisateur
         JOptionPane info = new JOptionPane();
-        info.showInternalMessageDialog( info, "          Bienvenue surPaint !\nPour commencer à dessiner, cliquez sur Ok",
+        info.showInternalMessageDialog( info, "          HELLO!\nPour commencer à dessiner, cliquez sur Ok",
                 "Pop-Up",JOptionPane.INFORMATION_MESSAGE);
 
         // On vient creer la palette de couleurs et de figures
@@ -158,7 +158,7 @@ public class Window extends JFrame implements ActionListener
         this.setVisible(true);
     }
 
-    // But it's not enough, we must assign their function to each button too:
+   
     @Override
     public void actionPerformed(ActionEvent e)
     {
